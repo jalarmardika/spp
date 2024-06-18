@@ -1,0 +1,13 @@
+table {
+	border-collapse: collapse;
+}
+th,
+td {
+	padding: 2px;
+}
+th {
+	color: #222;
+}
+body {
+	font-family: Calibri;
+}

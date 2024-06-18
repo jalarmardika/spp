@@ -1,0 +1,6 @@
+.card-body-icon{
+    position: absolute;
+    z-index: 0;
+    right: 4px;
+    opacity: 0.4;
+}
