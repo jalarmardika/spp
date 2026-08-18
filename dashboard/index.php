@@ -100,7 +100,7 @@
 
             $pendapatan = mysqli_query($koneksi,"select sum(biaya) as biaya from bulanan where tgl_bayar='$hariini'");
             $row = $pendapatan->fetch_array();
-            $totalhariini = $row['biaya'];
+            $totalhariini = $row['biaya'] ?? 0;
             ?>
             <p>Rp. <?php echo number_format($totalhariini);?></p>
           </div>
